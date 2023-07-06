@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <h1>Count : {counter?counter:0}</h1>
+        <h1>{counter?counter:0}</h1>
         <button onClick={()=>{dispatch(increament())}}>Increament</button>
         <button onClick={()=>{dispatch(decrement())}}>Decrement</button>
     </div>
